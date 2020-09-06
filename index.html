@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cinema ticket</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <form class="ticket-form" action="https://echo.htmlacademy.ru" method="POST">
+
+      <header class="movie-info">
+        <div class="movie-info__title-wrapper">
+          <h1 class="movie-info__title">TENET</h1>
+          <span class="movie-info__badge">Real 3D</span>
+          <span class="movie-info__badge">12+</span>
+        </div>
+
+        <p class="movie-info__cinema-name">Sunshine Cinema</p>
+
+        <time class="movie-info__time" datetime="2020-09-06 19:00">Tonight, 7 PM</time>
+
+        <button class="ticket-form__close" type="button">
+          <span class="visually-hidden">Close ticket form</span>
+        </button>
+      </header>
+
+      <hr class="divider">
+
+      <section class="cinema">
+        <h2 class="visually-hidden">Cinema seats list</h2>
+
+        <div class="cinema__screen">
+          <img class="cinema__poster" src="img/tenet-poster.jpg" alt="TENET movie poster" width="700" height="321" srcset="img/tenet-poster.jpg 1x, img/tenet-poster@2x.jpg 2x">
+        </div>
+
+
+        <div class="cinema__seats">
+
+          <ol class="cinema__seats-list">
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_1_seat_1" disabled>
+                <span class="seat__control" aria-label="Row 1 seat 1">
+                  <span class="seat__number">1</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_1_seat_2">
+                <span class="seat__control" aria-label="Row 1 seat 2">
+                  <span class="seat__number">2</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_1_seat_3">
+                <span class="seat__control" aria-label="Row 1 seat 3">
+                  <span class="seat__number">3</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_1_seat_4">
+                <span class="seat__control" aria-label="Row 1 seat 4">
+                  <span class="seat__number">4</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_1_seat_5" disabled>
+                <span class="seat__control" aria-label="Row 1 seat 5">
+                  <span class="seat__number">5</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_1_seat_6">
+                <span class="seat__control" aria-label="Row 1 seat 6">
+                  <span class="seat__number">6</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_1_seat_7">
+                <span class="seat__control" aria-label="Row 1 seat 7">
+                  <span class="seat__number">7</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_1_seat_8">
+                <span class="seat__control" aria-label="Row 1 seat 8">
+                  <span class="seat__number">8</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_1_seat_9">
+                <span class="seat__control" aria-label="Row 1 seat 9">
+                  <span class="seat__number">9</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_1_seat_10">
+                <span class="seat__control" aria-label="Row 1 seat 10">
+                  <span class="seat__number">10</span>
+                </span>
+              </label>
+            </li>
+
+          </ol>
+
+          <ol class="cinema__seats-list">
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_2_seat_1">
+                <span class="seat__control" aria-label="Row 2 seat 1">
+                  <span class="seat__number">1</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_2_seat_2">
+                <span class="seat__control" aria-label="Row 2 seat 2">
+                  <span class="seat__number">2</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_2_seat_3">
+                <span class="seat__control" aria-label="Row 2 seat 3">
+                  <span class="seat__number">3</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_2_seat_4">
+                <span class="seat__control" aria-label="Row 2 seat 4">
+                  <span class="seat__number">4</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat seat--vip">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_2_seat_5">
+                <span class="seat__control" aria-label="Row 2 seat 5 VIP">
+                  <span class="seat__number">5</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat seat--vip">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_2_seat_6">
+                <span class="seat__control" aria-label="Row 2 seat 6 VIP">
+                  <span class="seat__number">6</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_2_seat_7">
+                <span class="seat__control" aria-label="Row 2 seat 7">
+                  <span class="seat__number">7</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_2_seat_8">
+                <span class="seat__control" aria-label="Row 2 seat 8">
+                  <span class="seat__number">8</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_2_seat_9">
+                <span class="seat__control" aria-label="Row 2 seat 9">
+                  <span class="seat__number">9</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_2_seat_10">
+                <span class="seat__control" aria-label="Row 2 seat 10">
+                  <span class="seat__number">10</span>
+                </span>
+              </label>
+            </li>
+          </ol>
+
+          <ol class="cinema__seats-list">
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_3_seat_1">
+                <span class="seat__control" aria-label="Row 3 seat 1">
+                  <span class="seat__number">1</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_3_seat_2">
+                <span class="seat__control" aria-label="Row 3 seat 2">
+                  <span class="seat__number">2</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_3_seat_3">
+                <span class="seat__control" aria-label="Row 3 seat 3">
+                  <span class="seat__number">3</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_3_seat_4">
+                <span class="seat__control" aria-label="Row 3 seat 4">
+                  <span class="seat__number">4</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat seat--vip">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_3_seat_5">
+                <span class="seat__control" aria-label="Row 3 seat 5 VIP">
+                  <span class="seat__number">5</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat seat--vip">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_3_seat_6">
+                <span class="seat__control" aria-label="Row 3 seat 6 VIP">
+                  <span class="seat__number">6</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_3_seat_7">
+                <span class="seat__control" aria-label="Row 3 seat 7">
+                  <span class="seat__number">7</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_3_seat_8">
+                <span class="seat__control" aria-label="Row 3 seat 8">
+                  <span class="seat__number">8</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_3_seat_9">
+                <span class="seat__control" aria-label="Row 3 seat 9">
+                  <span class="seat__number">9</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_3_seat_10">
+                <span class="seat__control" aria-label="Row 3 seat 10">
+                  <span class="seat__number">10</span>
+                </span>
+              </label>
+            </li>
+          </ol>
+
+          <ol class="cinema__seats-list">
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_4_seat_1">
+                <span class="seat__control" aria-label="Row 4 seat 1">
+                  <span class="seat__number">1</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_4_seat_2">
+                <span class="seat__control" aria-label="Row 4 seat 2">
+                  <span class="seat__number">2</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_4_seat_3">
+                <span class="seat__control" aria-label="Row 4 seat 3">
+                  <span class="seat__number">3</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_4_seat_4">
+                <span class="seat__control" aria-label="Row 4 seat 4">
+                  <span class="seat__number">4</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_4_seat_5">
+                <span class="seat__control" aria-label="Row 4 seat 5">
+                  <span class="seat__number">5</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_4_seat_6">
+                <span class="seat__control" aria-label="Row 4 seat 6">
+                  <span class="seat__number">6</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_4_seat_7">
+                <span class="seat__control" aria-label="Row 4 seat 7">
+                  <span class="seat__number">7</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_4_seat_8">
+                <span class="seat__control" aria-label="Row 4 seat 8">
+                  <span class="seat__number">8</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_4_seat_9">
+                <span class="seat__control" aria-label="Row 4 seat 9">
+                  <span class="seat__number">9</span>
+                </span>
+              </label>
+            </li>
+
+            <li class="cinema__seat">
+              <label class="seat">
+                <input class="seat__checkbox visually-hidden" type="checkbox" name="row_4_seat_10">
+                <span class="seat__control" aria-label="Row 4 seat 10">
+                  <span class="seat__number">10</span>
+                </span>
+              </label>
+            </li>
+          </ol>
+
+        </div>
+
+      </section>
+
+      <hr class="divider">
+
+      <footer class="ticket-form__footer">
+        <ul class="seats-prices">
+          <li class="seat-price">Standard: $10</li>
+          <li class="seat-price seat-price--vip">VIP: $15</li>
+          <li class="seat-price seat-price--booked" aria-hidden="true">Booked</li>
+        </ul>
+
+        <button class="ticket-form__submit" type="submit">Done</button>
+      </footer>
+
+    </form>
+
+  </div>
+
+</body>
+</html>
